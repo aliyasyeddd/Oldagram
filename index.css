@@ -6,6 +6,7 @@ body {
 .container {
   margin: 0 auto;
   width: 600px;
+
 }
 
 /* header */
@@ -92,15 +93,15 @@ header {
   margin: 1%;
 }
 
-p .likes {
+.likes {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-p .captions {
+.captions {
   font-size: 20px;
 }
 
-p .user-name {
+.user-name {
   font-weight: 800;
 }
