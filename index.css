@@ -3,6 +3,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
 /* header */
 header {
   display: flex;
@@ -59,4 +64,34 @@ header {
   font-size: 0.9rem;
   color: #777;
   margin: 2px 0 0;
+}
+
+.post-img {
+  width: 100%;
+}
+
+
+.icon-heart,
+.icon-comment,
+.icon-dm {
+  width: 5%;
+  margin: 1%;
+}
+
+.likes,
+.captions {
+    padding-left: 12px;
+}
+
+p .likes {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p .captions {
+    font-size: 20px;
+}
+
+p .user-name {
+    font-weight: 800;
 }
