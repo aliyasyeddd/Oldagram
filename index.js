@@ -1,7 +1,7 @@
 import { posts } from "./data.js";
 
 let postsData = document.querySelector("main");
-
+let likesCount = document.getElementsByClassName("likes");
 
 
 function renderPosts() {
