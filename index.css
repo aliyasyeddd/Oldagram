@@ -78,9 +78,18 @@ header {
   margin: 1%;
 }
 
+.icon-heart:hover,
+.icon-heart:focus,
+.icon-dm:hover,
+.icon-dm:focus,
+.icon-comment:hover,
+.icon-comment:focus {
+  opacity: 0.5;
+}
+
 .likes,
 .captions {
-    padding-left: 12px;
+    margin: 1%;
 }
 
 p .likes {
