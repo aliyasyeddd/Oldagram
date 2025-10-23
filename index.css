@@ -3,3 +3,23 @@ html, body {
     padding: 0;
 }
 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+.logo-img {
+    width: 128px;
+    height: 40px;
+}
+
+.user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
