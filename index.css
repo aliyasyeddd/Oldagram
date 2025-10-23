@@ -1,25 +1,62 @@
-html, body {
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-
+/* header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #FFFFFF;
-    border-bottom: 2px solid #C6C6C6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #c6c6c6;
 }
 
 .logo-img {
-    width: 128px;
-    height: 40px;
+  width: 180px;
+  height: 70px;
+  margin: 10px 0 10px 10px;
+}
+
+.user-avatar,
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .user-avatar {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
+  margin: 10px 10px 10px 0;
+}
+
+/* main section */
+.post-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+}
+
+/* container for name + location */
+.post-head div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+/* user name styling */
+.user-id {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+
+/* user location styling */
+.user-location {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 2px 0 0;
 }
